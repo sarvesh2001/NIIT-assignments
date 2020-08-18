@@ -1,0 +1,27 @@
+#edits {
+  display: none;
+}
+
+#delete {
+  display: none;
+}
+
+button {
+  margin: 2%;
+  width: 18%;
+}
+
+.product {
+  padding: 2%;
+  background: deepskyblue;
+  margin: 2%;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+#edits,
+#view {
+  padding: 2%;
+  border: 2px blue solid;
+  border-radius: 10px;
+}

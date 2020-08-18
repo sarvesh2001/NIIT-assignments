@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="Product_css.css" />
+</head>
+
+<body>
+  <button type="button" onclick="edits()">Edits</button>
+  <button type="button" onclick="view()">View</button>
+  <div id="edits">
+    <button type="button" onclick="deleted()">Delete</button>
+    <button type="button" onclick="add()">Add</button>
+    <div id="delete">
+      <form>
+        <input type="text" name="delete_ok" placeholder="Enter the Name of product" />
+        <button type="button" onclick="delete_call(this.form)">delete</button>
+      </form>
+    </div>
+    <div id="add">
+      <form name="pro_add">
+        <div class="name">
+          ProductName:
+          <input type="text" name="pro_name" value="" placeholder="Enter the Product name" />
+        </div>
+        <div>
+          Product Image:
+          <input type="file" name="pro_img" />
+        </div>
+        <div>
+          Product Dectription:<br>
+          <textarea name="pro_decrip" rows="5" cols="20" placeholder="Enter the discription"></textarea>
+        </div>
+        <div>
+          Product price:
+          <input type="number" name="pro_price" placeholder="Enter the price" />
+        </div>
+        <button type="button" onclick="input(this.form)">SUBMIT</button>
+      </form>
+    </div>
+  </div>
+  <div id="view">
+  </div>
+  <script type="text/javascript" src="Products_js.js"></script>
+</body>
+
+</html>
