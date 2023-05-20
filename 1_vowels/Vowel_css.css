@@ -26,9 +26,17 @@ textarea {
   background: black;
   color: white;
 }
-
+.btn-out{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
 button {
+  margin: auto;
   font-size: 19px;
+  width: 200px;
+  background-color: aqua;
+  border: 2px solid whitesmoke;
 }
 
 #output {
